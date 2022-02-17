@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h5 {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 0;
+}
+
+.testo p {
+    color: grey;
+}
+
+.anno {
+    font-size: 12px;
+}
+
+.disco {
+    text-align: center;
+    background: #2e3a46;
+    width: 160px;
+    padding: 10px 10px 40px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+}
+
+img {
+    width: 90%;
+}
+
+.container-colore{
+    background-color: #1e2d3b;
+    height: 100vh;
+}
+
+.non-visibile{
+    display: none;
+}
+
+.header-container{
+    padding: 10px;
+    height: 50px;
+    background-color: #2e3a46;
+}
+
+.header-img{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
