@@ -32,7 +32,7 @@ echo "</p>"
                 <div class="row row-cols-5 justify-content-evenly">
                     <?php
 
-                    foreach ($database as $key => $disco) {
+                    foreach ($database as $disco) {
 
                         echo '<div class="disco col g-4">';
                         echo '<img src="' . $disco["poster"] . '" alt="' . $disco["title"] . '" />';
